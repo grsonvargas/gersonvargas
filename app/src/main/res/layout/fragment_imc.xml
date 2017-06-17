@@ -6,24 +6,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/texto_etiqueta_peso"/>
+        android:text="@string/texto_etiqueta_peso"/><!--Muestra un cuadro de texto no editable sobre el peso -->
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/campo_peso"/>
+        android:id="@+id/campo_peso"/><!--Muestra un cuadro de texto para ingresar el peso -->
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/texto_etiqueta_estatura"/>
+        android:text="@string/texto_etiqueta_estatura"/><!--Muestra el cuadro de texto no editable sobre la estatura -->
 
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/campo_estatura"/>
+        android:id="@+id/campo_estatura"/><!--Muestra cuadro de texto para ingresar la estatura -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,24 +34,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/texto_boton_calcular"
-            android:id="@+id/boton_calcular"/>
+            android:id="@+id/boton_calcular"/><!--Muestra el boton para calcular el IMC -->
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/texto_boton_limpiar"
-            android:id="@+id/boton_limpiar"/>
+            android:id="@+id/boton_limpiar"/><!--Muestra el boton que limpia los cuadros de texto-->
 
     </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_etiqueta_resultado"/>
+            android:text="@string/texto_etiqueta_resultado"/><!--Muestra la etiqueta de resultado-->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/etiqueta_imc"
-            android:text="0.0"/>
+            android:text="0.0"/><!--Muestra el resultado de la operacion-->
 
 </LinearLayout>
